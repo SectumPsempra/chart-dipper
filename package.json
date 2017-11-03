@@ -1,0 +1,26 @@
+{
+  "name": "charts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch" : "webpack -d --watch",
+    "build" : "webpack",
+    "serve" : "serve ./public"
+  },
+  "author": "Amit Bhatt",
+  "license": "ISC",
+  "dependencies": {
+    "fusioncharts": "^3.12.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-fusioncharts": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "serve": "^6.4.0",
+    "webpack": "^3.8.1"
+  }
+}
